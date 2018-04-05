@@ -228,7 +228,7 @@ def main():
 		wordlist = wlist[0]
 	else:
 		_ROOT = os.path.abspath(os.path.dirname(__file__))
-		wordlist = os.path.join(_ROOT, 'wordlist', 'wordlist.txt')
+		wordlist = os.path.join(_ROOT, 'wordlist', 'subdomains-top1mil-110000.txt')
 	
 	if not os.path.isfile(wordlist): 
 		exit('File not found: ' + wordlist)
