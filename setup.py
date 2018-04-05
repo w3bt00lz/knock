@@ -34,7 +34,7 @@ setup(
 
     description='Knock is a python tool designed to enumerate subdomains on a target domain through a wordlist.',
     long_description=long_description,
-    url='https://github.com/guelfoweb/knock',
+    url='https://github.com/w3bt00lz/knock',
 
     author='Gianni \'guelfoweb\' Amato',
     author_email='guelfoweb@gmail.com',
